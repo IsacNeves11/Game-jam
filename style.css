@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #eeeeee;
+  padding: 30px;
+}
+
+button {
+  padding: 12px 18px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+}
+
+button:focus-visible {
+  outline: 3px solid black;
+  outline-offset: 3px;
+}
+
+#zerar {
+  background: red;
+}
